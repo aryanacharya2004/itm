@@ -139,8 +139,8 @@
                         <a class="nav-link dropdown-toggle" href="#" id="admissionDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">Admission</a>
                         <ul class="dropdown-menu" aria-labelledby="admissionDropdown">
-                            <li><a class="dropdown-item" href="#">Fee Structure</a></li>
-                            <li><a class="dropdown-item" href="#">Admissions Notice</a></li>
+<!--                             <li><a class="dropdown-item" href="#">Fee Structure</a></li> -->
+<!--                             <li><a class="dropdown-item" href="#">Admissions Notice</a></li> -->
                             <li><a class="dropdown-item" href="eligiblity.php">Eligiblity</a></li>
                         </ul>
                     </li>
