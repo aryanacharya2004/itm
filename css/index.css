@@ -1,0 +1,207 @@
+/* <style> */
+
+body {
+    background-color:rgb(179, 200, 222);
+/* background-color: background-color: #dbf7f3; */
+/* background-image: linear-gradient(0deg, #dbf7f3 0%, #d3dbd8 50%, #e7ebe5 100%); */
+;
+}
+.top-bar {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+.d-none.d-md-block {
+    display: none !important;
+}
+
+@media (min-width: 768px) {
+    .d-none.d-md-block {
+        display: block !important;
+    }
+}
+
+.social-icons a {
+    color: white;
+    margin-right: 10px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ffcc00;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info i {
+    margin-right: 5px;
+}
+
+.navbar-brand img {
+    height: 100px;
+    width: 100px;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-image: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(241, 97, 38) 60%) !important;
+    margin-right: 500px;
+}
+
+/* Style the dropdown menus */
+.navbar .dropdown-menu {
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    min-width: 200px;
+    z-index: 1000; /* Ensure dropdown is above other elements */
+}
+
+.navbar .dropdown-item {
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.navbar .dropdown-item:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-submenu .dropdown-menu {
+    display: none; /* Hide by default */
+    position: relative; /* Change to relative to stack below the parent */
+    margin-top: 0; /* Adjust margin */
+   
+}
+
+.dropdown-submenu .dropdown-menu.show {
+    display: block; /* Show when activated */
+}
+
+.contact-info a {
+color: white; /* Set text color to white */
+text-decoration: none; /* Remove underline */
+}
+
+.contact-info a:hover {
+text-decoration: none; /* Ensure no underline on hover */
+}
+
+/* Set a fixed height for all carousel images */
+.fixed-height {
+    
+    /* padding: 20px; */
+height: 500px; /* Set fixed height for images */
+width: 100vw;
+object-fit: cover; /* Ensure the image covers the area without distorting */
+}
+
+/* </style> */
+
+/* <style> */
+    /* Maroon line styling for designation title */
+    .designation {
+        font-size: 20px;
+        color: #800000;
+        /* Maroon color */
+        font-weight: bold;
+        position: relative;
+        padding-bottom: 10px;
+        /* Added space between title and line */
+        transition: color 0.3s ease;
+        /* Smooth transition for color change */
+    }
+
+    .designation::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 50%;
+        height: 2px;
+        background-color: #800000;
+        /* Maroon color */
+        transition: background-color 0.3s ease;
+        /* Smooth transition for line change */
+    }
+
+    /* Card title styling */
+    .card-title {
+        font-size: 18px;
+        font-weight: bold;
+        color: #333;
+        /* Darker color for the title */
+        margin-top: 10px;
+        transition: color 0.3s ease;
+        /* Smooth transition for color change */
+    }
+
+    /* Card Body Paragraph Styling */
+    .card-body p {
+        font-size: 14px;
+        color: #555;
+        transition: color 0.3s ease;
+        /* Smooth transition for color change */
+    }
+
+    /* Make sure all cards are of the same size */
+    .card {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        transition: all 0.3s ease-in-out;
+        /* Smooth transition for hover effect */
+        background-color: #fff;
+        /* Default background color */
+    }
+
+    /* Ensure the image fits the card properly */
+    .card-img-top {
+        height: 450px;
+        object-fit: cover;
+        transition: opacity 0.3s ease;
+        /* Smooth transition for opacity change */
+    }
+
+    /* Hover effect for the card */
+    .hover-card:hover {
+        background-color: #125875e0 !important;
+        /* Background color change on hover */
+        box-shadow: 0 4px 12px rgba(222, 152, 152, 0.1);
+        /* Adding shadow effect */
+        transform: translateY(-5px);
+        /* Slightly lift the card on hover */
+    }
+
+    .hover-card:hover .card-title,
+    .hover-card:hover .designation,
+    .hover-card:hover .card-body p {
+        color: #ffffff;
+        /* Change title, designation, and text color to white on hover */
+    }
+
+    .hover-card:hover .card-img-top {
+        opacity: 0.8;
+        /* Slight opacity change for image on hover */
+    }
+
+    .hover-card:hover .designation::after {
+        background-color: #ffffff;
+        /* Change line color to white on hover */
+    }
+/* </style> */
+
+
+@media (max-width: 991px) { /* Small screens (mobile/tablet) */
+    #navbarNav {
+        margin-left: 0px !important;
+    }
+}
